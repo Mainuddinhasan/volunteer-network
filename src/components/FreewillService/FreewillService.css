@@ -1,6 +1,11 @@
 .card-container{
-    margin-top: -120px;
+    margin-top: -200px;
     padding: 50px;
   
  
 }
+.card:active {
+    border: 2px solid  #3F90FC;
+    border-radius: 20px;
+    transform: translateY(2px);
+  }

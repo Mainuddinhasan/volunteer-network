@@ -1,0 +1,28 @@
+.registration-container{
+    position: relative;
+    background: #F8FAFC;
+    text-align: center;
+    
+}
+/* .registration-form{
+    text-align: center;
+    background-color: #E6F0FF;
+    opacity: 0.9;
+    height:900px;
+   
+}  */
+.registration{
+    width: 500px;
+    height: auto;
+    text-align: left !important;
+  
+    margin: 0 auto;
+    margin-top: 5%;
+    padding:3%;
+    
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #ABABAB; 
+
+
+}
