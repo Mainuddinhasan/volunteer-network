@@ -30,6 +30,8 @@ const Navbar = () => {
         <form className="form-inline">
         {/* <Link to={`/registration/${id}`}><button className="btn btn-outline-success mr-5" type="button">Register</button></Link> */}
         <Link to="/registration"><button className="btn btn-outline-dark mr-5" type="button">Admin</button></Link>
+        <button className="btn btn-outline-dark mr-5" type="button">Logout</button>
+
     </form>
       </nav>
     );

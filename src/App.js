@@ -23,7 +23,7 @@ function App() {
   
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
-     <p>Name:{LoggedInUser.email}</p>
+     <p>Name:{loggedInUser.email}</p>
     <Router>
        <Switch>
           <Route path="/home">
@@ -32,11 +32,15 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-          <PrivateRoute path="/bookedItems">
-              <BookedItems />
+{/*           
+           <Route path="/registration/:itemId">
+            <Registration />
+          </Route> */}
+          <PrivateRoute path="/registration/:uniqueId">
+            <Registration />
           </PrivateRoute>
-          <Route path="/registration">
-              <Registration />
+          <Route path="/bookedItems">
+            <BookedItems />
           </Route>
          
 

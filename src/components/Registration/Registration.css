@@ -15,14 +15,17 @@
     width: 500px;
     height: auto;
     text-align: left !important;
-  
     margin: 0 auto;
     margin-top: 5%;
     padding:3%;
-    
     border-radius: 4px;
     background: #FFFFFF;
     border: 1px solid #ABABAB; 
-
-
+}
+.submitBtn{
+    display: flex;
+    padding: 14px 0px 0px 181px;
+    box-sizing: border-box;
+    height: 48px;
+    background: #3F90FC;
 }

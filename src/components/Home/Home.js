@@ -5,7 +5,7 @@ import Header from '../Header/Header';
 import Login from '../Login/Login';
 
 const Home = () => {
-   
+
     return (
         <div>
             <div>
@@ -15,7 +15,6 @@ const Home = () => {
                 {
                     volunteerServices.map(vService =><FreewillService key={vService.itemId} vService={vService}></FreewillService>)
              
-                    
                 }
 
             </div>

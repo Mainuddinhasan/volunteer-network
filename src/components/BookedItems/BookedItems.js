@@ -3,7 +3,7 @@ import React from 'react';
 const BookedItems = () => {
     return (
         <div>
-            This is BookedItems
+           <h1> This is BookedItems</h1>
         </div>
     );
 };
