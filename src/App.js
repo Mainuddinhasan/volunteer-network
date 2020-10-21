@@ -9,7 +9,7 @@ import './App.css';
 import BookedItems from './components/BookedItems/BookedItems';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
-import NotMatched from './components/NotMached/NotMached';
+import NotMatched from './components/NotMatched/NotMatched';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Registration from './components/Registration/Registration';
 
